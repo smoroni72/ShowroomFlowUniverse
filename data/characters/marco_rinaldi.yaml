@@ -9,6 +9,12 @@ philosophy: "Marco non vende con pressione. Marco osserva, ascolta e rispetta il
 narrative_superpower: "Sa capire quando NON e' il momento di vendere."
 motto: "Ogni collezione ha il suo momento."
 symbolic_line: "Se il prodotto e' valido, non ha bisogno di essere imposto."
+assets:
+  reference_dir: assets/characters/marco_rinaldi/reference
+  expressions_dir: assets/characters/marco_rinaldi/expressions
+  outfits_dir: assets/characters/marco_rinaldi/outfits
+  poses_dir: assets/characters/marco_rinaldi/poses
+  character_sheet: assets/characters/marco_rinaldi/reference/marco_rinaldi_character_sheet_v1.png
 personality:
   - calmo
   - empatico

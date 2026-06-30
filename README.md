@@ -38,6 +38,7 @@ Focus dello Sprint 1:
 - impostare il repository;
 - definire manifesto e Bible iniziale;
 - creare il primo personaggio canonico, Marco Rinaldi;
+- formalizzare il primo asset set ufficiale per Marco Rinaldi `CHR-001`;
 - preparare Episode 001 con script, shot list, prompt e checklist di continuita';
 - predisporre la struttura per asset, clip, export ed esperimenti.
 

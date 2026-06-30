@@ -58,6 +58,23 @@ A volte rinuncia a un'occasione commerciale pur di non mettere pressione.
 - sorriso caldo, non pubblicitario;
 - postura rilassata ma professionale.
 
+## Character Lock
+
+Status: `LOCKED`
+
+Version: `v1.0`
+
+Reference: `assets/characters/marco_rinaldi/reference/marco_rinaldi_character_sheet_v1.png`
+
+Il volto, capelli, barba, corporatura, eta' apparente e postura generale di Marco non devono cambiare.
+
+## Visual Asset Library
+
+- [Reference](../../assets/characters/marco_rinaldi/reference/)
+- [Expressions](../../assets/characters/marco_rinaldi/expressions/)
+- [Outfits](../../assets/characters/marco_rinaldi/outfits/)
+- [Poses](../../assets/characters/marco_rinaldi/poses/)
+
 ## Outfit Principale
 
 Nome outfit: **Marco Classico**
