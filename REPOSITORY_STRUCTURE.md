@@ -8,7 +8,35 @@ ShowroomFlow Universe separa documentazione creativa, dati strutturati, asset, v
 - `AI_TEAM.md`: ruoli del team creativo e tecnico.
 - `CONTRIBUTING.md`: regole di contribuzione.
 - `DIRECTOR_GUIDE.md`: guida operativa per Codex.
+- `PROJECT_STATUS.md`: stato operativo dello ShowroomFlow Creative Lab.
 - `REPOSITORY_STRUCTURE.md`: logica delle cartelle.
+
+## 05_episodes/
+
+Contiene la produzione operativa degli episodi.
+
+Ogni episodio deve essere indipendente e contenere tutto cio' che serve per portarlo da idea a pubblicazione.
+
+Struttura:
+
+- `templates/`: template produttivi per episodi, shot, prompt e director notes;
+- `season_01/episode_001/`: Episode 001 in pre production;
+- `season_01/episode_002/` - `episode_005/`: placeholder produttivi.
+
+Ogni episodio contiene:
+
+- `README.md`;
+- `storyboard.md`;
+- `director_notes.md`;
+- `shotlist.md`;
+- `assets.md`;
+- `prompts/images/`;
+- `prompts/videos/`;
+- `clips/`;
+- `audio/`;
+- `thumbnails/`;
+- `final/`;
+- `checklist.md`.
 
 ## docs/
 
@@ -19,8 +47,6 @@ Contiene la documentazione creativa canonica.
 - `02_characters/`: documentazione canonica dei personaggi, con template e cartelle dedicate.
 - `03_environments/`: ambienti canonici.
 - `04_props/`: oggetti narrativi e funzionali.
-- `05_storyboards/`: storyboard testuali o visuali.
-- `06_episodes/`: documenti di produzione per ogni episodio.
 - `07_prompts/`: prompt master e prompt di produzione.
 - `08_brand/`: guida stile, tono e regole visuali.
 - `09_pipeline/`: pipeline produttiva e workflow di approvazione.
@@ -64,13 +90,9 @@ Gli asset non approvati o sperimentali non devono stare qui.
 
 ## video/
 
-Contiene materiale di produzione video.
+Contiene materiale video condiviso o storico.
 
-Ogni episodio ha:
-
-- `clips/`: clip brevi generate;
-- `exports/`: output montati;
-- `project_files/`: file progetto di Clipchamp, DaVinci o altri strumenti.
+La produzione corrente degli episodi vive in `05_episodes/`.
 
 ## archive/
 

@@ -22,9 +22,10 @@ Questo repository e' gestito come fonte della verita' dello ShowroomFlow Creativ
 Usare nomi stabili, leggibili e in snake case:
 
 - `marco_rinaldi.md`
-- `episode_001_storyboard.md`
+- `episode_001`
+- `S001_esterno_boutique.md`
 - `marco_rinaldi_master_prompt.md`
-- `clip_01_boutique_exterior.webm`
+- `clip_S001_esterno_boutique.webm`
 
 ## Stato Dei Materiali
 
@@ -47,7 +48,7 @@ Gli asset approvati vanno in:
 
 Ogni personaggio canonico deve avere:
 
-- scheda Markdown in `docs/02_characters/`;
+- documentazione Markdown canonica in `docs/02_characters/<character_slug>/`;
 - dati YAML in `data/characters/`;
 - cartella asset in `assets/characters/`.
 
@@ -55,10 +56,26 @@ Ogni personaggio canonico deve avere:
 
 Ogni episodio deve avere:
 
-- `script.md`;
-- `shot_list.md`;
-- `prompts.md`;
-- `continuity_checklist.md`.
+- `README.md`;
+- `storyboard.md`;
+- `director_notes.md`;
+- `shotlist.md`;
+- `assets.md`;
+- `prompts/images/`;
+- `prompts/videos/`;
+- `clips/`;
+- `audio/`;
+- `thumbnails/`;
+- `final/`;
+- `checklist.md`.
+
+Ogni episodio deve essere indipendente.
+
+Ogni prompt deve essere indipendente.
+
+Ogni asset deve essere collegato ai riferimenti canonici.
+
+`director_notes.md` e' riservato al Creative Director e non viene compilato automaticamente.
 
 ## Approvazione
 

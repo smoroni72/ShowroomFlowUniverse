@@ -2,7 +2,7 @@
 
 Repository ufficiale dello **ShowroomFlow Creative Lab**.
 
-Questo repository non e' un normale progetto software. E' la fonte della verita' per l'universo narrativo, i personaggi, gli storyboard, i prompt, gli asset e i video della campagna di comunicazione di ShowroomFlow.
+Questo repository non e' un normale progetto software. E' la fonte della verita' produttiva per l'universo narrativo, i personaggi, gli storyboard, i prompt, gli asset e i video della campagna di comunicazione di ShowroomFlow.
 
 ## Obiettivo
 
@@ -11,6 +11,14 @@ Costruire un universo narrativo seriale chiamato **ShowroomFlow Universe**.
 L'obiettivo non e' produrre un singolo video pubblicitario, ma una campagna coerente di piccoli episodi animati, cartoon o cinematici, in cui gli stessi personaggi raccontano il valore di ShowroomFlow attraverso situazioni realistiche del mondo della rappresentanza moda.
 
 ShowroomFlow e' una piattaforma digitale B2B per agenti di moda, showroom e boutique.
+
+## Principio Fondamentale
+
+Lo ShowroomFlow Creative Lab non produce documentazione.
+
+Produce contenuti.
+
+La documentazione esiste soltanto per rendere piu' veloce la produzione degli episodi.
 
 ## Filosofia Narrativa
 
@@ -40,8 +48,9 @@ Focus dello Sprint 1:
 - creare il primo personaggio canonico, Marco Rinaldi `CHR-001`;
 - strutturare la documentazione canonica di Marco in `CORE.md`, `profile.md`, `sheet.md` e `bible/`;
 - formalizzare il primo asset set ufficiale per Marco Rinaldi `CHR-001`;
-- preparare Episode 001 con script, shot list, prompt e checklist di continuita';
-- predisporre la struttura per asset, clip, export ed esperimenti.
+- introdurre la pipeline produttiva definitiva per gli episodi;
+- preparare Episode 001 per la pubblicazione;
+- predisporre asset, prompt, clip, audio, thumbnail, final ed esperimenti.
 
 ## Struttura
 
@@ -51,11 +60,44 @@ La struttura del repository e' descritta in:
 
 Cartelle principali:
 
+- `05_episodes/`: produzione episodi, stagioni, shot, prompt, clip e final;
 - `docs/`: documentazione creativa canonica;
 - `data/`: dati strutturati in YAML;
 - `assets/`: asset approvati o candidati all'approvazione;
 - `video/`: clip, export e project file;
 - `archive/`: esperimenti e materiale non canonico.
+
+## Production Pipeline
+
+Ogni episodio segue sempre questo flusso:
+
+Idea
+
+Story
+
+Storyboard
+
+Director Notes
+
+Shot List
+
+Production Prompts
+
+Image Assets
+
+Video Clips
+
+Editing
+
+Published Episode
+
+## Season 01
+
+- [Episode 001 - Il momento giusto](05_episodes/season_01/episode_001/README.md): `Pre Production`
+- [Episode 002](05_episodes/season_01/episode_002/README.md): `Reserved`
+- [Episode 003](05_episodes/season_01/episode_003/README.md): `Reserved`
+- [Episode 004](05_episodes/season_01/episode_004/README.md): `Reserved`
+- [Episode 005](05_episodes/season_01/episode_005/README.md): `Reserved`
 
 ## Struttura Character Canon
 
@@ -80,7 +122,7 @@ Deliverable:
 - Bible iniziale;
 - Marco Rinaldi structured character canon;
 - Marco Rinaldi YAML machine index;
-- Episode 001 script;
+- Episode 001 production folder;
 - Episode 001 shot list;
 - Episode 001 continuity checklist;
 - prompt master iniziale per Marco Rinaldi.
@@ -92,5 +134,8 @@ Deliverable:
 - Codex organizza, versiona e rende operative le specifiche.
 - Gli esperimenti vanno in `archive/experiments/`.
 - Gli asset approvati vanno in `assets/`.
-- Ogni episodio deve avere script, shot list, prompt e checklist di continuita'.
+- Ogni episodio deve essere indipendente.
+- Ogni prompt deve essere indipendente.
+- Ogni asset deve essere collegato ai riferimenti canonici.
+- Ogni episodio deve avere storyboard, director notes, shot list, prompt, asset map e checklist.
 - Ogni personaggio canonico deve avere documentazione Markdown canonica e file YAML come indice macchina.

@@ -20,7 +20,7 @@ Ogni clip deve corrispondere a uno shot preciso della shot list.
    - camera;
    - assenza di errori evidenti.
 6. Salvare clip candidate.
-7. Spostare clip approvate in `video/episode_XXX/clips/`.
+7. Spostare clip approvate in `05_episodes/season_XX/episode_XXX/clips/`.
 8. Montare.
 
 ## Regole Prompt Video
@@ -36,3 +36,5 @@ Ogni clip deve corrispondere a uno shot preciso della shot list.
 ## Controllo
 
 Ogni clip deve passare dalla checklist di continuita' dell'episodio.
+
+La checklist dell'episodio vive in `05_episodes/season_XX/episode_XXX/checklist.md`.

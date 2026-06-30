@@ -49,13 +49,17 @@ Nel racconto appare come:
 
 ### Episode 001
 
-Titolo provvisorio:
+Titolo:
 
-> Il tempo giusto
+> Il momento giusto
 
 Logline:
 
 Marco entra in una boutique mentre la titolare sta servendo una cliente. Invece di forzare una presentazione, lascia il Kit di Prospezione. La titolare, incuriosita, scarica l'app, si collega al tenant tramite QR e scopre le collezioni.
+
+Production folder:
+
+`05_episodes/season_01/episode_001/`
 
 ## Stile Visivo
 
@@ -107,14 +111,16 @@ Non generare un video intero in un solo prompt.
 
 Pipeline corretta:
 
-1. scrivere episodio;
-2. creare shot list;
-3. generare immagini chiave;
-4. generare clip brevi da 3-5 secondi;
-5. montare;
-6. aggiungere voce, musica e sound design;
-7. controllare continuita';
-8. esportare.
+1. Idea;
+2. Story;
+3. Storyboard;
+4. Director Notes;
+5. Shot List;
+6. Production Prompts;
+7. Image Assets;
+8. Video Clips;
+9. Editing;
+10. Published Episode.
 
 ## Continuita'
 
