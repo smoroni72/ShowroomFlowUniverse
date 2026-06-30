@@ -1,8 +1,12 @@
-# Marco Rinaldi
+# Marco Rinaldi Profile
 
 Stato: **APPROVATO**
 
 Character ID: `CHR-001`
+
+Core canon: [CORE.md](CORE.md)
+
+Visual sheet: [sheet.md](sheet.md)
 
 ## Ruolo
 
@@ -45,65 +49,6 @@ Sa capire quando **NON** e' il momento di vendere.
 Marco e' quasi troppo rispettoso.
 
 A volte rinuncia a un'occasione commerciale pur di non mettere pressione.
-
-## Aspetto Fisico
-
-- uomo italiano;
-- eta' apparente 46-48 anni;
-- altezza circa 178 cm;
-- fisico normale, curato, leggermente sportivo;
-- capelli castano scuro con prime sfumature grigie sulle tempie;
-- barba corta di due giorni, molto curata;
-- occhi castani;
-- sorriso caldo, non pubblicitario;
-- postura rilassata ma professionale.
-
-## Character Lock
-
-Status: `LOCKED`
-
-Version: `v1.0`
-
-Reference: `assets/characters/marco_rinaldi/reference/marco_rinaldi_character_sheet_v1.png`
-
-Il volto, capelli, barba, corporatura, eta' apparente e postura generale di Marco non devono cambiare.
-
-## Visual Asset Library
-
-- [Reference](../../assets/characters/marco_rinaldi/reference/)
-- [Expressions](../../assets/characters/marco_rinaldi/expressions/)
-- [Outfits](../../assets/characters/marco_rinaldi/outfits/)
-- [Poses](../../assets/characters/marco_rinaldi/poses/)
-
-## Outfit Principale
-
-Nome outfit: **Marco Classico**
-
-- blazer blu navy destrutturato;
-- camicia bianca senza cravatta;
-- pantalone chino beige;
-- cintura in pelle marrone;
-- sneakers bianche premium;
-- messenger bag in pelle color cuoio;
-- Apple Watch;
-- iPad Air.
-
-## Palette
-
-- blu navy;
-- bianco;
-- beige;
-- cuoio;
-- grigio caldo;
-- nero soft.
-
-## Accessori
-
-- iPad Air;
-- borsa messenger in pelle;
-- smartphone;
-- Kit di Prospezione ShowroomFlow;
-- eventuale BMW Serie 3 Touring blu scuro.
 
 ## Comportamenti Ricorrenti
 

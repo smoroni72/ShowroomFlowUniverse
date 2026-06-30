@@ -37,7 +37,8 @@ Focus dello Sprint 1:
 
 - impostare il repository;
 - definire manifesto e Bible iniziale;
-- creare il primo personaggio canonico, Marco Rinaldi;
+- creare il primo personaggio canonico, Marco Rinaldi `CHR-001`;
+- strutturare la documentazione canonica di Marco in `CORE.md`, `profile.md`, `sheet.md` e `bible/`;
 - formalizzare il primo asset set ufficiale per Marco Rinaldi `CHR-001`;
 - preparare Episode 001 con script, shot list, prompt e checklist di continuita';
 - predisporre la struttura per asset, clip, export ed esperimenti.
@@ -56,6 +57,18 @@ Cartelle principali:
 - `video/`: clip, export e project file;
 - `archive/`: esperimenti e materiale non canonico.
 
+## Struttura Character Canon
+
+Ogni personaggio canonico puo' avere una cartella dedicata in `docs/02_characters/`.
+
+Per Marco Rinaldi `CHR-001` la struttura canonica e':
+
+- `CORE.md`: protegge Marco e contiene solo elementi immutabili;
+- `profile.md`: racconta Marco dal punto di vista narrativo;
+- `sheet.md`: rende Marco producibile per immagini, storyboard e video;
+- `bible/`: rende Marco seriale attraverso moduli di continuita';
+- `data/characters/marco_rinaldi.yaml`: resta un indice macchina, non un doppione narrativo.
+
 ## Roadmap Sprint 1
 
 Deliverable:
@@ -65,8 +78,8 @@ Deliverable:
 - `README.md`;
 - manifesto narrativo;
 - Bible iniziale;
-- Marco Rinaldi character profile;
-- Marco Rinaldi YAML;
+- Marco Rinaldi structured character canon;
+- Marco Rinaldi YAML machine index;
 - Episode 001 script;
 - Episode 001 shot list;
 - Episode 001 continuity checklist;
@@ -80,4 +93,4 @@ Deliverable:
 - Gli esperimenti vanno in `archive/experiments/`.
 - Gli asset approvati vanno in `assets/`.
 - Ogni episodio deve avere script, shot list, prompt e checklist di continuita'.
-- Ogni personaggio canonico deve avere scheda Markdown e file YAML.
+- Ogni personaggio canonico deve avere documentazione Markdown canonica e file YAML come indice macchina.

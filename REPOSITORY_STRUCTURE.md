@@ -16,7 +16,7 @@ Contiene la documentazione creativa canonica.
 
 - `00_manifesto/`: manifesto narrativo e visione.
 - `01_bible/`: Bible dello ShowroomFlow Universe.
-- `02_characters/`: schede personaggi.
+- `02_characters/`: documentazione canonica dei personaggi, con template e cartelle dedicate.
 - `03_environments/`: ambienti canonici.
 - `04_props/`: oggetti narrativi e funzionali.
 - `05_storyboards/`: storyboard testuali o visuali.
@@ -25,15 +25,29 @@ Contiene la documentazione creativa canonica.
 - `08_brand/`: guida stile, tono e regole visuali.
 - `09_pipeline/`: pipeline produttiva e workflow di approvazione.
 
+### docs/02_characters/
+
+Contiene i template e una cartella dedicata per ogni personaggio canonico.
+
+Struttura consigliata:
+
+- `templates/`: template per core, profilo e sheet;
+- `<character_slug>/CORE.md`: elementi immutabili e character lock;
+- `<character_slug>/profile.md`: profilo narrativo;
+- `<character_slug>/sheet.md`: scheda visuale e produttiva;
+- `<character_slug>/bible/`: moduli di continuita' seriale.
+
 ## data/
 
 Contiene dati strutturati in YAML.
 
 Uso previsto:
 
-- personaggi;
+- indici macchina dei personaggi;
 - stati canonici;
 - metadati utili a generazione, prompt e automazioni future.
+
+I file YAML non devono duplicare la documentazione narrativa completa.
 
 ## assets/
 

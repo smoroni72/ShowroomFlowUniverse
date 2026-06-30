@@ -1,10 +1,32 @@
 # Character Sheet Template
 
+Funzione: `sheet.md` rende il personaggio producibile per immagini, storyboard e video.
+
 ## Character
 
 - Nome:
 - Character ID:
 - Stato:
+- Core canon:
+- Asset catalog:
+
+## Character Lock
+
+- Status:
+- Version:
+- Reference:
+- Regole immutabili:
+
+## Physical Appearance
+
+- Eta' apparente:
+- Altezza:
+- Fisico:
+- Capelli:
+- Barba:
+- Occhi:
+- Sorriso:
+- Postura:
 
 ## Required Views
 
@@ -36,6 +58,13 @@
 ## Outfit Notes
 
 - 
+
+## Asset Library
+
+- Reference:
+- Expressions:
+- Outfits:
+- Poses:
 
 ## Negative Constraints
 

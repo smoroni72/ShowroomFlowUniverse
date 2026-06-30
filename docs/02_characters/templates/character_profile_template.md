@@ -1,5 +1,7 @@
 # Character Profile Template
 
+Funzione: `profile.md` racconta il personaggio. Non sostituisce `CORE.md` e non contiene la libreria visuale completa.
+
 ## Identita'
 
 - Nome:
@@ -8,6 +10,8 @@
 - Ruolo:
 - Eta':
 - Esperienza:
+- Core canon:
+- Visual sheet:
 
 ## Funzione Narrativa
 
@@ -25,21 +29,6 @@
 - Come parla:
 - Come si muove:
 
-## Aspetto
-
-- Eta' apparente:
-- Altezza:
-- Fisico:
-- Capelli:
-- Occhi:
-- Segni distintivi:
-
-## Outfit
-
-- Outfit principale:
-- Palette:
-- Accessori:
-
 ## Comportamenti Ricorrenti
 
 - 
@@ -54,5 +43,5 @@
 
 ## Continuita'
 
-- Elementi da mantenere sempre:
-- Elementi modificabili:
+- Regole narrative da mantenere:
+- Riferimenti modulari in `bible/`:
