@@ -1,0 +1,90 @@
+id: CHR-001
+name: Marco Rinaldi
+status: approved
+role: Agente plurimandatario nel settore moda
+age: 48
+apparent_age: "46-48"
+experience_years: 25
+philosophy: "Marco non vende con pressione. Marco osserva, ascolta e rispetta il tempo delle persone."
+narrative_superpower: "Sa capire quando NON e' il momento di vendere."
+motto: "Ogni collezione ha il suo momento."
+symbolic_line: "Se il prodotto e' valido, non ha bisogno di essere imposto."
+personality:
+  - calmo
+  - empatico
+  - professionale
+  - discreto
+  - elegante
+  - affidabile
+  - osservatore
+  - rispettoso
+  - mai invadente
+flaw: "E' quasi troppo rispettoso. A volte rinuncia a un'occasione commerciale pur di non mettere pressione."
+physical_appearance:
+  gender: uomo
+  nationality: italiano
+  height_cm: 178
+  body: "normale, curato, leggermente sportivo"
+  hair: "castano scuro con prime sfumature grigie sulle tempie"
+  beard: "barba corta di due giorni, molto curata"
+  eyes: castani
+  smile: "caldo, non pubblicitario"
+  posture: "rilassata ma professionale"
+main_outfit:
+  name: Marco Classico
+  items:
+    - blazer blu navy destrutturato
+    - camicia bianca senza cravatta
+    - pantalone chino beige
+    - cintura in pelle marrone
+    - sneakers bianche premium
+    - messenger bag in pelle color cuoio
+    - Apple Watch
+    - iPad Air
+palette:
+  - blu navy
+  - bianco
+  - beige
+  - cuoio
+  - grigio caldo
+  - nero soft
+accessories:
+  - iPad Air
+  - borsa messenger in pelle
+  - smartphone
+  - Kit di Prospezione ShowroomFlow
+  - BMW Serie 3 Touring blu scuro opzionale
+recurring_behaviors:
+  - "quando entra in boutique osserva prima di parlare"
+  - "non interrompe mai"
+  - "se vede che il titolare e' impegnato, sorride e fa un piccolo cenno con la testa"
+  - "appoggia il kit sul bancone con naturalezza"
+  - "non indica mai il kit in modo aggressivo"
+  - "tiene spesso l'iPad con una mano"
+  - "parla poco e con tono calmo"
+never_do:
+  - non insiste
+  - non alza la voce
+  - non interrompe una vendita
+  - non forza una demo
+  - non si comporta come un venditore aggressivo
+  - non usa frasi da televendita
+  - non mostra entusiasmo esagerato
+  - non e' comico
+  - non e' arrogante
+typical_dialogues:
+  - "Buongiorno Laura. Vedo che e' impegnata, non si preoccupi."
+  - "Le lascio questo. Quando avra' un momento, li' trova le collezioni che rappresento."
+  - "Con calma. Nessuna fretta."
+  - "Ogni collezione ha il suo momento."
+continuity_rules:
+  keep:
+    - "outfit Marco Classico salvo variazione approvata"
+    - "tono calmo"
+    - "gesti misurati"
+    - "rispetto del tempo altrui"
+  avoid:
+    - "pressione commerciale"
+    - "comicita'"
+    - "pose aggressive"
+    - "look troppo glamour o irrealistico"
