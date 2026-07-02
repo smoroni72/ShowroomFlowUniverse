@@ -36,6 +36,16 @@ Published Episodes
 
 ---
 
+Production Board
+
+Environment Exterior
+✓ Completed
+
+Next Production Target
+Shot002 - Marco Arrives
+
+---
+
 Current Goal
 
 Pubblicare Episode 001.
@@ -44,4 +54,4 @@ Pubblicare Episode 001.
 
 Next Deliverable
 
-Shot 002 - Marco arriva alla boutique
+Shot002 - Marco Arrives
