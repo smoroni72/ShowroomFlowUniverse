@@ -1,4 +1,4 @@
-# ShowroomFlow Creative Lab
+﻿# ShowroomFlow Creative Lab
 
 Missione
 
@@ -14,31 +14,24 @@ verso ShowroomFlow.
 Stato
 
 Repository
-
-✅
+OK
 
 Marco
-
 70%
 
 Laura
-
 0%
 
 Environment 001
-
-20%
+30% - Motion test approved
 
 Episode 001
-
-15%
+20% - Environment motion test completed
 
 Production Pipeline
-
 40%
 
 Published Episodes
-
 0
 
 ---
@@ -51,5 +44,4 @@ Pubblicare Episode 001.
 
 Next Deliverable
 
-Director Notes
-Shot S001
+Shot 002 - Marco arriva alla boutique
