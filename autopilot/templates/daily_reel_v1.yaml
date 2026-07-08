@@ -1,0 +1,66 @@
+version: 1
+name: daily_reel_v1
+
+output:
+  daily_dir: video/autopilot/daily
+  width: 1080
+  height: 1920
+  fps: 30
+  duration_seconds: 15
+  crf: 20
+  preset: medium
+
+inputs:
+  videos: video/episode_001/assets/video
+  app_images: video/episode_001/assets/app
+  end_cards: assets/brand/end_cards
+  backgrounds: assets/brand/backgrounds
+
+fallbacks:
+  end_cards:
+    - video/episode_001/assets/brand/end_cards
+
+music:
+  enabled: true
+  directory: video/episode_001/assets/music
+  volume: 0.18
+  fade_out_seconds: 1.2
+
+text:
+  font_file: C:/Windows/Fonts/arial.ttf
+
+content:
+  caption: "Marco non forza una vendita. Lascia il tempo giusto alla boutique."
+  hashtags:
+    - "#ShowroomFlow"
+    - "#FashionTech"
+    - "#ModaB2B"
+    - "#Boutique"
+    - "#AgentiModa"
+    - "#Showroom"
+
+sequence:
+  - type: video
+    source: videos
+    duration: 5
+    overlay_text: "Il momento giusto"
+    text_position: bottom
+
+  - type: image
+    source: app_images
+    duration: 3
+    motion: auto
+    overlay_text: "La boutique continua a lavorare"
+    text_position: bottom
+
+  - type: image
+    source: app_images
+    duration: 4
+    motion: auto
+    overlay_text: "Le collezioni restano disponibili"
+    text_position: bottom
+
+  - type: image
+    source: end_cards
+    duration: 3
+    motion: zoom_in
