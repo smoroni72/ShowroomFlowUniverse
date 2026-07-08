@@ -1,0 +1,37 @@
+id: boutique_laura_fashion
+type: environment
+status: canon_candidate
+style: premium_italian_boutique
+semantic_rules:
+  - boutique italiana indipendente
+  - premium ma credibile
+  - luce naturale calda
+  - materiali: legno, tessuto, vetro, ottone, pietra
+  - nessun neon
+  - nessun caos visivo
+assets:
+  exterior:
+    - file: assets/environments/boutique_laura_fashion/exterior/environment_exterior_canon_v1.png
+      status: canon_candidate
+      view: exterior_front
+      tags: [boutique, exterior, laura_fashion, warm_light]
+    - file: assets/environments/boutique_laura_fashion/exterior/environment_exterior_canon_v2.png
+      status: canon_candidate
+      view: exterior_front_variant
+      tags: [boutique, exterior, poster_source, warm_light]
+  reference:
+    - file: assets/environments/boutique_laura_fashion/reference/concept_board_v1.png
+      status: canon_candidate
+      role: concept_board
+      tags: [mood, reference]
+    - file: assets/environments/boutique_laura_fashion/reference/laura_fashion_motion_test_kling_v1.mp4
+      status: canon_candidate
+      role: environment_motion_test
+      tags: [kling, motion_test, approved_validation]
+  deprecated:
+    - file: assets/environments/boutique_laura_fashion/deprecated/laura_fashion_motion_test_kling_raw_20260702_v1.mp4
+      status: review_needed
+      role: raw_environment_motion_test
+      tags: [kling, raw, review]
+notes:
+  - Il motion test e' approvato come validazione ambiente, non come footage narrativo definitivo.

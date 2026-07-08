@@ -1,0 +1,143 @@
+id: marco_rinaldi
+type: character
+status: canon_candidate
+style: 3d_fashion_tech
+primary_reference: assets/characters/marco_rinaldi/reference/marco_rinaldi_character_sheet_v1.png
+required_turnaround:
+  - front_000
+  - left_045
+  - left_090
+  - left_135
+  - back_180
+  - right_225
+  - right_270
+  - right_315
+asset_groups:
+  turnaround:
+    - file: assets/characters/marco_rinaldi/turnaround/front_000.png
+      view: front_000
+      status: canon_candidate
+      tags: [front, full_body, continuity]
+    - file: assets/characters/marco_rinaldi/turnaround/side_090.png
+      view: side_090
+      status: canon_candidate
+      tags: [side, full_body, continuity]
+    - file: assets/characters/marco_rinaldi/turnaround/back_180.png
+      view: back_180
+      status: canon_candidate
+      tags: [back, full_body, continuity]
+    - file: assets/characters/marco_rinaldi/turnaround/three_quarter_045.png
+      view: three_quarter_045
+      status: canon_candidate
+      tags: [three_quarter, continuity]
+  poses:
+    - file: assets/characters/marco_rinaldi/poses/appoggia_il_kit.png
+      pose: places_kit
+      status: canon_candidate
+      tags: [kit, gesture, respectful]
+    - file: assets/characters/marco_rinaldi/poses/ascolta.png
+      pose: listening
+      status: canon_candidate
+      tags: [listening, calm]
+    - file: assets/characters/marco_rinaldi/poses/ascolta_attentamente.png
+      pose: attentive_listening
+      status: canon_candidate
+      tags: [listening, attentive]
+    - file: assets/characters/marco_rinaldi/poses/entra_in_negozio.png
+      pose: enters_shop
+      status: canon_candidate
+      tags: [entrance, boutique]
+    - file: assets/characters/marco_rinaldi/poses/entra_nella_boutique.png
+      pose: enters_boutique
+      status: canon_candidate
+      tags: [entrance, boutique, typo_fixed]
+    - file: assets/characters/marco_rinaldi/poses/esce_con_discrezione.png
+      pose: exits_discreetly
+      status: canon_candidate
+      tags: [exit, discretion, typo_fixed]
+    - file: assets/characters/marco_rinaldi/poses/esce_con_discrezione_02.png
+      pose: exits_discreetly_variant
+      status: canon_candidate
+      tags: [exit, discretion, variant]
+    - file: assets/characters/marco_rinaldi/poses/in_auto.png
+      pose: in_car
+      status: canon_candidate
+      tags: [vehicle, car]
+    - file: assets/characters/marco_rinaldi/poses/lascia_il_kit.png
+      pose: leaves_kit
+      status: canon_candidate
+      tags: [kit, gesture]
+    - file: assets/characters/marco_rinaldi/poses/osserva_la_vetrina.png
+      pose: observes_window
+      status: canon_candidate
+      tags: [window, observation]
+    - file: assets/characters/marco_rinaldi/poses/parla_con_garbo.png
+      pose: speaks_politely
+      status: canon_candidate
+      tags: [dialogue, polite]
+    - file: assets/characters/marco_rinaldi/poses/parla_con_garbo_02.png
+      pose: speaks_politely_variant
+      status: canon_candidate
+      tags: [dialogue, polite, variant]
+    - file: assets/characters/marco_rinaldi/poses/primo_piano.png
+      pose: close_up
+      status: canon_candidate
+      tags: [close_up, portrait]
+    - file: assets/characters/marco_rinaldi/poses/saluta.png
+      pose: greeting
+      status: canon_candidate
+      tags: [greeting, polite]
+    - file: assets/characters/marco_rinaldi/poses/standing_with_ipad_and_bag.png
+      pose: standing_with_ipad_and_bag
+      status: canon_candidate
+      tags: [ipad, messenger_bag, standing]
+  expressions:
+    - expression: sorriso_leggero
+      status: canon_candidate
+      tags: [warm, measured]
+    - expression: ascolto
+      status: canon_candidate
+      tags: [listening, calm]
+    - expression: concentrazione
+      status: canon_candidate
+      tags: [focused]
+    - expression: rassicurazione
+      status: canon_candidate
+      tags: [reassuring]
+    - expression: curiosita
+      status: canon_candidate
+      tags: [curious]
+    - expression: serio
+      status: canon_candidate
+      tags: [serious]
+    - expression: soddisfazione
+      status: canon_candidate
+      tags: [satisfied]
+    - expression: saluto
+      status: canon_candidate
+      tags: [greeting]
+  outfits:
+    - outfit: primavera_classico
+      status: canon_candidate
+      tags: [classic, spring]
+    - outfit: inverno_business
+      status: canon_candidate
+      tags: [business, winter]
+    - outfit: estate_lino
+      status: canon_candidate
+      tags: [linen, summer]
+    - outfit: casual_elegante
+      status: canon_candidate
+      tags: [casual, elegant]
+    - outfit: fiera_showroom
+      status: canon_candidate
+      tags: [fair, showroom]
+    - outfit: viaggio_confort
+      status: canon_candidate
+      tags: [travel]
+    - outfit: smart_casual
+      status: canon_candidate
+      tags: [smart_casual]
+notes:
+  - Marco e' personaggio canonico, ma la coerenza video non e' ancora stabile.
+  - Mancano ancora diverse viste del turnaround richiesto.

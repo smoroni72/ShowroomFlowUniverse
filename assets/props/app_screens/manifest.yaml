@@ -1,0 +1,29 @@
+id: showroomflow_app_screens
+type: prop_asset_group
+status: canon_candidate
+style: clean_premium_mobile_ui
+assets:
+  - file: assets/props/app_screens/showroomflow_brand_list_v1.jpg
+    screen: brand_list
+    status: canon_candidate
+    tags: [mobile, brand_list, boutique]
+  - file: assets/props/app_screens/showroomflow_categories_oblo_v1.jpg
+    screen: category_navigation
+    status: canon_candidate
+    tags: [mobile, categories, oblo]
+  - file: assets/props/app_screens/showroomflow_look_sculpted_brutalism_v1.jpg
+    screen: look_detail
+    status: canon_candidate
+    tags: [mobile, look, runway]
+  - file: assets/props/app_screens/showroomflow_mix_match_look_items_v1.jpg
+    screen: mix_match_items
+    status: canon_candidate
+    tags: [mobile, mix_match, outfit]
+  - file: assets/props/app_screens/showroomflow_vetrina_outfit_mode_v1.jpg
+    screen: vetrina_outfit_mode
+    status: canon_candidate
+    tags: [mobile, vetrina, outfit_mode]
+  - file: assets/props/app_screens/showroomflow_vetrina_editorial_mode_v1.jpg
+    screen: vetrina_editorial_mode
+    status: canon_candidate
+    tags: [mobile, vetrina, editorial_mode]

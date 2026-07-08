@@ -1,0 +1,27 @@
+id: showroomflow_brand
+type: brand_asset_group
+status: canon_candidate
+style: premium_fashion_tech
+assets:
+  end_cards:
+    - file: assets/brand/end_cards/showroomflow_end_card_experience_v1.png
+      status: canon_candidate
+      semantic_role: closing_card
+      message: "Ogni collezione. Un'esperienza."
+      tags:
+        - end_card
+        - logo
+        - payoff
+        - black_gold
+        - vertical
+  backgrounds:
+    - file: assets/brand/backgrounds/showroomflow_black_background_v1.png
+      status: canon_candidate
+      semantic_role: neutral_dark_background
+      tags:
+        - black
+        - vertical
+        - neutral
+  logos: []
+notes:
+  - Nessun logo standalone e' stato trovato durante la riorganizzazione.

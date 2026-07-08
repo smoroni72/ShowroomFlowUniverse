@@ -2,7 +2,7 @@ version: 1
 name: daily_reel_v1
 
 output:
-  daily_dir: video/autopilot/daily
+  daily_dir: outputs/autopilot/daily
   width: 1080
   height: 1920
   fps: 30
@@ -11,18 +11,14 @@ output:
   preset: medium
 
 inputs:
-  videos: video/episode_001/assets/video
-  app_images: video/episode_001/assets/app
+  videos: assets/environments/boutique_laura_fashion/reference
+  app_images: assets/props/app_screens
   end_cards: assets/brand/end_cards
   backgrounds: assets/brand/backgrounds
 
-fallbacks:
-  end_cards:
-    - video/episode_001/assets/brand/end_cards
-
 music:
   enabled: true
-  directory: video/episode_001/assets/music
+  directory: assets/brand/music
   volume: 0.18
   fade_out_seconds: 1.2
 

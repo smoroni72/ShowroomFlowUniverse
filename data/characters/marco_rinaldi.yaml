@@ -4,25 +4,27 @@ status: approved
 canon_version: v1.0
 role_index: Agente plurimandatario nel settore moda
 canon:
-  core: docs/02_characters/marco_rinaldi/CORE.md
-  profile: docs/02_characters/marco_rinaldi/profile.md
-  sheet: docs/02_characters/marco_rinaldi/sheet.md
-  bible_dir: docs/02_characters/marco_rinaldi/bible
+  core: docs/creative_bible/characters/marco_rinaldi/CORE.md
+  profile: docs/creative_bible/characters/marco_rinaldi/profile.md
+  sheet: docs/creative_bible/characters/marco_rinaldi/sheet.md
+  bible_dir: docs/creative_bible/characters/marco_rinaldi/bible
   bible:
-    identity: docs/02_characters/marco_rinaldi/bible/01_identity.md
-    philosophy: docs/02_characters/marco_rinaldi/bible/02_philosophy.md
-    body_language: docs/02_characters/marco_rinaldi/bible/03_body_language.md
-    daily_routine: docs/02_characters/marco_rinaldi/bible/04_daily_routine.md
-    dialogues: docs/02_characters/marco_rinaldi/bible/05_dialogues.md
-    relationships: docs/02_characters/marco_rinaldi/bible/06_relationships.md
-    outfits: docs/02_characters/marco_rinaldi/bible/07_outfits.md
-    accessories: docs/02_characters/marco_rinaldi/bible/08_accessories.md
-    acting_guide: docs/02_characters/marco_rinaldi/bible/09_acting_guide.md
+    identity: docs/creative_bible/characters/marco_rinaldi/bible/01_identity.md
+    philosophy: docs/creative_bible/characters/marco_rinaldi/bible/02_philosophy.md
+    body_language: docs/creative_bible/characters/marco_rinaldi/bible/03_body_language.md
+    daily_routine: docs/creative_bible/characters/marco_rinaldi/bible/04_daily_routine.md
+    dialogues: docs/creative_bible/characters/marco_rinaldi/bible/05_dialogues.md
+    relationships: docs/creative_bible/characters/marco_rinaldi/bible/06_relationships.md
+    outfits: docs/creative_bible/characters/marco_rinaldi/bible/07_outfits.md
+    accessories: docs/creative_bible/characters/marco_rinaldi/bible/08_accessories.md
+    acting_guide: docs/creative_bible/characters/marco_rinaldi/bible/09_acting_guide.md
 lock:
   status: LOCKED
   version: v1.0
   reference: assets/characters/marco_rinaldi/reference/marco_rinaldi_character_sheet_v1.png
 assets:
+  manifest: assets/characters/marco_rinaldi/manifest.yaml
+  turnaround_dir: assets/characters/marco_rinaldi/turnaround
   reference_dir: assets/characters/marco_rinaldi/reference
   expressions_dir: assets/characters/marco_rinaldi/expressions
   outfits_dir: assets/characters/marco_rinaldi/outfits

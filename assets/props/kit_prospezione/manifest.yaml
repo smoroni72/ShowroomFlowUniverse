@@ -1,0 +1,12 @@
+id: kit_prospezione
+type: prop
+status: canon_candidate
+style: premium_discreet_sales_kit
+assets: []
+semantic_rules:
+  - premium
+  - discreto
+  - logo non invasivo
+  - due QR distinguibili quando presenti
+notes:
+  - Nessun asset visuale dedicato del kit e' stato trovato durante la riorganizzazione.

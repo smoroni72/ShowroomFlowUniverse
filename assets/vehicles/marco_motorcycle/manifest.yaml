@@ -1,0 +1,9 @@
+id: marco_motorcycle
+type: vehicle
+status: canon_candidate
+style: premium_fashion_tech
+asset_groups:
+  reference: []
+  deprecated: []
+notes:
+  - Nessun asset veicolo disponibile al momento della riorganizzazione.

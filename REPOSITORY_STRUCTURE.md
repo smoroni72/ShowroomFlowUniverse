@@ -1,67 +1,78 @@
 # Repository Structure
 
-ShowroomFlow Universe separa documentazione creativa, dati strutturati, asset, video ed esperimenti.
+ShowroomFlow Universe e' organizzato come Generative Asset Library + Autopilot Lab.
 
 ## Root
 
-- `README.md`: descrizione generale, stato e roadmap.
+- `README.md`: descrizione generale.
 - `AI_TEAM.md`: ruoli del team creativo e tecnico.
 - `CONTRIBUTING.md`: regole di contribuzione.
 - `DIRECTOR_GUIDE.md`: guida operativa per Codex.
 - `PROJECT_STATUS.md`: stato operativo dello ShowroomFlow Creative Lab.
+- `REORG_REPORT.md`: report dell'ultima riorganizzazione.
 - `REPOSITORY_STRUCTURE.md`: logica delle cartelle.
 
-## 05_episodes/
+## assets/
 
-Contiene la produzione operativa degli episodi.
+Centro canonico degli asset condivisi.
 
-Ogni episodio deve essere indipendente e contenere tutto cio' che serve per portarlo da idea a pubblicazione.
+Ogni asset condiviso deve avere un solo posto ufficiale e deve essere descritto dal `manifest.yaml` della sua entita'.
 
 Struttura:
 
-- `templates/`: template produttivi per episodi, shot, prompt e director notes;
-- `season_01/episode_001/`: Episode 001 in pre production;
-- `season_01/episode_002/` - `episode_005/`: placeholder produttivi.
+- `brand/`: loghi, end card, backgrounds, colori e musica.
+- `characters/`: personaggi, pose, espressioni, outfit, turnaround e reference.
+- `environments/`: ambienti, exterior, interior, angles e reference.
+- `vehicles/`: veicoli.
+- `props/`: app screens, QR codes e Kit di Prospezione.
+- `ASSET_INDEX.md`: indice umano della libreria.
 
-Ogni episodio contiene:
+## autopilot/
 
-- `README.md`;
-- `storyboard.md`;
-- `director_notes.md`;
-- `shotlist.md`;
-- `assets.md`;
-- `prompts/images/`;
-- `prompts/videos/`;
-- `clips/`;
-- `audio/`;
-- `thumbnails/`;
-- `final/`;
-- `checklist.md`.
+Contiene codice, template e configurazioni Autopilot.
+
+Struttura:
+
+- `scripts/`: script Python.
+- `templates/`: template YAML.
+- `configs/`: configurazioni opzionali.
+- `README.md`: istruzioni operative.
+
+Il codice Autopilot non deve contenere render o asset condivisi.
+
+## outputs/
+
+Contiene output generati.
+
+Struttura:
+
+- `autopilot/daily/YYYY-MM-DD/`: output giornalieri Autopilot.
+
+## episodes/
+
+Contiene solo documenti editoriali e export finali.
+
+Ogni episodio puo' contenere solo:
+
+- `script.md`;
+- `timeline.md`;
+- `caption.md`;
+- `hashtags.md`;
+- `source_assets.md`;
+- `lessons_learned.md`;
+- `export/`.
+
+Gli episodi non devono contenere copie di asset condivisi.
 
 ## docs/
 
-Contiene la documentazione creativa canonica.
+Contiene documentazione creativa e operativa.
 
-- `00_manifesto/`: manifesto narrativo e visione.
-- `01_bible/`: Bible dello ShowroomFlow Universe.
-- `02_characters/`: documentazione canonica dei personaggi, con template e cartelle dedicate.
-- `03_environments/`: ambienti canonici.
-- `04_props/`: oggetti narrativi e funzionali.
-- `07_prompts/`: prompt master e prompt di produzione.
-- `08_brand/`: guida stile, tono e regole visuali.
-- `09_pipeline/`: pipeline produttiva e workflow di approvazione.
+- `creative_bible/`: manifesto, bible, personaggi, ambienti, props e brand.
+- `production_pipeline/`: workflow, budget e pipeline.
+- `prompts/`: prompt master e prompt di produzione.
+- `agent_instructions/`: regole operative per agenti.
 
-### docs/02_characters/
-
-Contiene i template e una cartella dedicata per ogni personaggio canonico.
-
-Struttura consigliata:
-
-- `templates/`: template per core, profilo e sheet;
-- `<character_slug>/CORE.md`: elementi immutabili e character lock;
-- `<character_slug>/profile.md`: profilo narrativo;
-- `<character_slug>/sheet.md`: scheda visuale e produttiva;
-- `<character_slug>/bible/`: moduli di continuita' seriale.
 
 ## data/
 
@@ -75,41 +86,28 @@ Uso previsto:
 
 I file YAML non devono duplicare la documentazione narrativa completa.
 
-## assets/
+## archive/
 
-Contiene asset approvati o candidati all'approvazione.
+Contiene materiale non canonico o non piu' operativo.
 
 Struttura:
 
-- `characters/`;
-- `environments/`;
-- `props/`;
-- `brand/`.
-
-Gli asset non approvati o sperimentali non devono stare qui.
-
-## video/
-
-Contiene materiale video condiviso o storico.
-
-La produzione corrente degli episodi vive in `05_episodes/`.
-
-## archive/
-
-Contiene esperimenti, prove scartate e materiale non canonico.
-
-Gli esperimenti vanno in:
-
-- `archive/experiments/`
+- `experiments/`: esperimenti.
+- `deprecated/`: vecchie strutture o asset deprecati.
+- `review_queue/`: file dubbi da classificare.
 
 ## Regola Generale
 
-Se un file stabilisce una decisione creativa canonica, va in `docs/`.
+Se un file e' un asset condiviso, va in `assets/`.
+
+Se un file e' codice o template Autopilot, va in `autopilot/`.
+
+Se un file e' output generato, va in `outputs/`.
+
+Se un file e' parte editoriale di un episodio, va in `episodes/`.
+
+Se un file e' documentazione creativa o operativa, va in `docs/`.
 
 Se un file e' dato strutturato, va in `data/`.
 
-Se un file e' un asset approvato, va in `assets/`.
-
-Se un file e' una clip o un progetto video, va in `video/`.
-
-Se un file e' una prova, va in `archive/experiments/`.
+Se un file e' dubbio, storico o sperimentale, va in `archive/`.

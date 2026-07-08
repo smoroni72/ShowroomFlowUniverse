@@ -2,7 +2,7 @@
 
 Repository ufficiale dello **ShowroomFlow Creative Lab**.
 
-Questo repository non e' un normale progetto software. E' la fonte della verita' produttiva per l'universo narrativo, i personaggi, gli storyboard, i prompt, gli asset e i video della campagna di comunicazione di ShowroomFlow.
+Questo repository non e' un normale progetto software. E' la fonte della verita' produttiva per l'universo narrativo, gli asset generativi, l'Autopilot Lab e i video della campagna di comunicazione di ShowroomFlow.
 
 ## Obiettivo
 
@@ -43,14 +43,10 @@ Stato: **Sprint 1 avviato**.
 
 Focus dello Sprint 1:
 
-- impostare il repository;
-- definire manifesto e Bible iniziale;
-- creare il primo personaggio canonico, Marco Rinaldi `CHR-001`;
-- strutturare la documentazione canonica di Marco in `CORE.md`, `profile.md`, `sheet.md` e `bible/`;
-- formalizzare il primo asset set ufficiale per Marco Rinaldi `CHR-001`;
-- introdurre la pipeline produttiva definitiva per gli episodi;
-- preparare Episode 001 per la pubblicazione;
-- predisporre asset, prompt, clip, audio, thumbnail, final ed esperimenti.
+- consolidare la Generative Asset Library;
+- mantenere un solo posto ufficiale per ogni asset;
+- rendere Autopilot v1 capace di generare Reel verticali da asset locali;
+- preparare Episode 001 per la pubblicazione usando solo riferimenti ad asset condivisi.
 
 ## Struttura
 
@@ -60,12 +56,13 @@ La struttura del repository e' descritta in:
 
 Cartelle principali:
 
-- `05_episodes/`: produzione episodi, stagioni, shot, prompt, clip e final;
-- `docs/`: documentazione creativa canonica;
+- `assets/`: Generative Asset Library centrale;
+- `autopilot/`: codice, template e configurazioni Autopilot;
+- `outputs/`: render Autopilot e altri output generati;
+- `episodes/`: script, timeline, caption, hashtag, source assets, lessons learned ed export finali;
+- `docs/`: creative bible, pipeline, prompt e istruzioni agenti;
 - `data/`: dati strutturati in YAML;
-- `assets/`: asset approvati o candidati all'approvazione;
-- `video/`: clip, export e project file;
-- `archive/`: esperimenti e materiale non canonico.
+- `archive/`: esperimenti, materiale deprecato e file in review.
 
 ## Production Pipeline
 
@@ -93,22 +90,23 @@ Published Episode
 
 ## Season 01
 
-- [Episode 001 - Il momento giusto](05_episodes/season_01/episode_001/README.md): `Pre Production`
-- [Episode 002](05_episodes/season_01/episode_002/README.md): `Reserved`
-- [Episode 003](05_episodes/season_01/episode_003/README.md): `Reserved`
-- [Episode 004](05_episodes/season_01/episode_004/README.md): `Reserved`
-- [Episode 005](05_episodes/season_01/episode_005/README.md): `Reserved`
+- [Episode 001 - Il momento giusto](episodes/season_01/episode_001/script.md): `Pre Production`
+- Episode 002: `Reserved`
+- Episode 003: `Reserved`
+- Episode 004: `Reserved`
+- Episode 005: `Reserved`
 
 ## Struttura Character Canon
 
-Ogni personaggio canonico puo' avere una cartella dedicata in `docs/02_characters/`.
+Ogni personaggio puo' avere documentazione creativa in `docs/creative_bible/characters/` e asset generativi in `assets/characters/`.
 
-Per Marco Rinaldi `CHR-001` la struttura canonica e':
+Per Marco Rinaldi `CHR-001` la documentazione creativa e':
 
 - `CORE.md`: protegge Marco e contiene solo elementi immutabili;
 - `profile.md`: racconta Marco dal punto di vista narrativo;
 - `sheet.md`: rende Marco producibile per immagini, storyboard e video;
 - `bible/`: rende Marco seriale attraverso moduli di continuita';
+- `assets/characters/marco_rinaldi/manifest.yaml`: descrive semanticamente gli asset;
 - `data/characters/marco_rinaldi.yaml`: resta un indice macchina, non un doppione narrativo.
 
 ## Roadmap Sprint 1
@@ -122,7 +120,7 @@ Deliverable:
 - Bible iniziale;
 - Marco Rinaldi structured character canon;
 - Marco Rinaldi YAML machine index;
-- Episode 001 production folder;
+- Episode 001 canonical folder;
 - Episode 001 shot list;
 - Episode 001 continuity checklist;
 - prompt master iniziale per Marco Rinaldi.
@@ -133,9 +131,10 @@ Deliverable:
 - Le decisioni creative canoniche arrivano dal Creative Director e da Stefano.
 - Codex organizza, versiona e rende operative le specifiche.
 - Gli esperimenti vanno in `archive/experiments/`.
-- Gli asset approvati vanno in `assets/`.
+- Gli asset approvati o candidati vanno in `assets/`.
 - Ogni episodio deve essere indipendente.
 - Ogni prompt deve essere indipendente.
 - Ogni asset deve essere collegato ai riferimenti canonici.
-- Ogni episodio deve avere storyboard, director notes, shot list, prompt, asset map e checklist.
-- Ogni personaggio canonico deve avere documentazione Markdown canonica e file YAML come indice macchina.
+- Ogni episodio deve contenere solo script, timeline, caption, hashtags, source assets, lessons learned ed export.
+- Ogni asset condiviso deve avere un solo posto ufficiale.
+- Lo stato canonico degli asset vive nei `manifest.yaml`.
