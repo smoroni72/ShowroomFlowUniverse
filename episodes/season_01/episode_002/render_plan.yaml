@@ -1,0 +1,169 @@
+version: 1
+
+episode:
+  id: episode_002
+  title: "La prima impressione"
+  season: season_01
+  objective: "Marco entra nella boutique Laura Fashion, saluta Laura e lascia il Kit di Prospezione sul desk."
+  total_duration_seconds: 20
+
+format:
+  orientation: vertical
+  resolution: 1080x1920
+  fps: 30
+  aspect_ratio: 9:16
+
+assets_policy:
+  use_repository_assets_only: true
+  allow_generated_assets: false
+  missing_asset_behavior: stop_render
+
+style:
+  mood:
+    - luxury
+    - editorial
+    - fashion_tech
+    - minimal
+  pacing: slow
+  transitions: fade
+  color_grade: luxury_minimal
+
+shots:
+  - id: S001
+    duration: 3
+    type: environment
+    environment:
+      id: boutique_laura_fashion
+      asset: assets/environments/boutique_laura_fashion/exterior/environment_exterior_canon_v1.png
+      semantic_location: exterior_front
+    camera:
+      shot: wide
+      movement: slow_push
+    transition: fade
+
+  - id: S002
+    duration: 3
+    type: character_environment
+    environment:
+      id: boutique_laura_fashion
+      asset: assets/environments/boutique_laura_fashion/interior/interior_entrance.png
+      semantic_location: interior_entrance
+    actors:
+      - id: marco_rinaldi
+        asset: assets/characters/marco_rinaldi/turnaround/front_000.png
+        pose: walking
+        expression: neutral
+        position: center
+        scale: 1.0
+    camera:
+      shot: medium
+      movement: slow_push
+    transition: dissolve
+
+  - id: S003
+    duration: 2.5
+    type: character_environment
+    environment:
+      id: boutique_laura_fashion
+      asset: assets/environments/boutique_laura_fashion/interior/interior_central_area_1.png
+      semantic_location: interior_central_area
+    actors:
+      - id: laura
+        asset: assets/characters/laura/expressions/01_sorriso_leggero.png
+        pose: standing
+        expression: sorriso_leggero
+        position: center
+        scale: 1.0
+    camera:
+      shot: medium_close
+      movement: slow_zoom
+    transition: dissolve
+
+  - id: S004
+    duration: 2.5
+    type: character
+    actors:
+      - id: marco_rinaldi
+        asset: assets/characters/marco_rinaldi/expressions/01_sorriso_leggero.png
+        pose: standing
+        expression: sorriso_leggero
+        position: center
+        scale: 1.0
+    camera:
+      shot: medium_close
+      movement: slow_zoom
+    transition: cut
+
+  - id: S005
+    duration: 4
+    type: character_environment
+    environment:
+      id: boutique_laura_fashion
+      asset: assets/environments/boutique_laura_fashion/interior/interior_central_area_1.png
+      semantic_location: desk_area
+    actors:
+      - id: marco_rinaldi
+        asset: assets/characters/marco_rinaldi/poses/leave_kit_on_desk.png
+        pose: leave_kit_on_desk
+        expression: sorriso_leggero
+        position: center
+        scale: 1.0
+    camera:
+      shot: medium_close
+      movement: slow_push
+    transition: dissolve
+
+  - id: S006
+    duration: 2.5
+    type: character_environment
+    environment:
+      id: boutique_laura_fashion
+      asset: assets/environments/boutique_laura_fashion/interior/interior_central_area_1.png
+      semantic_location: interior_central_area
+    actors:
+      - id: laura
+        asset: assets/characters/laura/expressions/05_curiosita.png
+        pose: standing
+        expression: curiosita
+        position: center
+        scale: 1.0
+    camera:
+      shot: closeup
+      movement: slow_zoom
+    transition: dissolve
+
+  - id: S007
+    duration: 1.5
+    type: prop
+    prop:
+      id: kit_prospezione
+      asset: assets/characters/marco_rinaldi/poses/leave_kit_on_desk.png
+      semantic_role: kit_on_desk
+      position: center
+      scale: 1.0
+    camera:
+      shot: macro
+      movement: slow_zoom
+    transition: fade
+
+  - id: S008
+    duration: 1
+    type: brand_end_card
+    prop:
+      id: showroomflow_end_card
+      asset: assets/brand/end_cards/showroomflow_end_card_experience_v1.png
+      semantic_role: closing_card
+      position: center
+      scale: 1.0
+    camera:
+      shot: fullbody
+      movement: static
+    transition: fade
+
+output:
+  directory: outputs/autopilot/daily/2026-07-09
+  files:
+    reel: reel.mp4
+    cover: cover.png
+    caption: caption.md
+    hashtags: hashtags.md

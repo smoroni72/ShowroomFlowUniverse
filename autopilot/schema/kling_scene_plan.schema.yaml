@@ -1,0 +1,43 @@
+version: 1
+required_root_fields:
+  - episode
+  - provider
+  - scenes
+  - output
+
+episode:
+  required:
+    - id
+    - title
+    - season
+
+provider:
+  allowed:
+    - kling
+
+scene:
+  required:
+    - id
+    - duration
+    - environment
+    - action
+    - camera
+    - references
+  fields:
+    id: string
+    duration: number
+    environment: string
+    action: string
+    mood: string
+    camera:
+      shot: string
+      movement: string
+    references:
+      characters: list
+      environment: string
+      props: list
+    negative_prompt: string
+
+output:
+  required:
+    - directory

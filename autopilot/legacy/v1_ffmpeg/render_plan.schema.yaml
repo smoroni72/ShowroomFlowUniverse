@@ -1,0 +1,194 @@
+version: 1
+type: render_plan_schema
+name: showroomflow_autopilot_render_plan
+status: canon_v1
+
+required_root_fields:
+  - version
+  - episode
+  - format
+  - assets_policy
+  - shots
+  - output
+
+episode:
+  required:
+    - id
+    - title
+    - season
+  fields:
+    id: string
+    title: string
+    season: string
+    objective: string
+    total_duration_seconds: number
+
+format:
+  required:
+    - orientation
+    - resolution
+    - fps
+  fields:
+    orientation:
+      allowed:
+        - vertical
+    resolution:
+      allowed:
+        - 1080x1920
+    fps:
+      allowed:
+        - 30
+    aspect_ratio:
+      allowed:
+        - 9:16
+
+assets_policy:
+  required:
+    - use_repository_assets_only
+    - allow_generated_assets
+    - missing_asset_behavior
+  fields:
+    use_repository_assets_only: boolean
+    allow_generated_assets: boolean
+    missing_asset_behavior:
+      allowed:
+        - stop_render
+        - warn_only
+
+style:
+  fields:
+    mood: list
+    pacing:
+      allowed:
+        - slow
+        - medium
+    transitions:
+      allowed:
+        - cut
+        - fade
+        - dissolve
+    color_grade:
+      allowed:
+        - luxury_minimal
+        - fashion_editorial
+        - neutral_warm
+
+shot:
+  required:
+    - id
+    - duration
+    - type
+    - camera
+  fields:
+    id: string
+    duration: number
+    type:
+      allowed:
+        - environment
+        - character
+        - character_environment
+        - prop
+        - brand_end_card
+
+    environment:
+      fields:
+        id: string
+        asset: string
+        semantic_location: string
+
+    actors:
+      type: list
+      item_fields:
+        id: string
+        asset: string
+        pose: string
+        expression: string
+        position:
+          allowed:
+            - left
+            - center
+            - right
+        scale: number
+
+    prop:
+      fields:
+        id: string
+        asset: string
+        semantic_role: string
+        position:
+          allowed:
+            - foreground
+            - center
+            - desk
+            - hand
+        scale: number
+
+    camera:
+      required:
+        - shot
+        - movement
+      fields:
+        shot:
+          allowed:
+            - wide
+            - medium
+            - medium_close
+            - closeup
+            - macro
+            - fullbody
+        movement:
+          allowed:
+            - static
+            - slow_push
+            - slow_zoom
+            - subtle_pan
+            - fade_in
+            - fade_out
+
+    transition:
+      allowed:
+        - cut
+        - fade
+        - dissolve
+
+    text_overlay:
+      fields:
+        enabled: boolean
+        text: string
+        position:
+          allowed:
+            - top
+            - center
+            - bottom
+        style:
+          allowed:
+            - luxury_minimal
+            - editorial_white
+            - black_gold
+
+output:
+  required:
+    - directory
+    - files
+  fields:
+    directory: string
+    files:
+      required:
+        - reel
+        - cover
+        - caption
+        - hashtags
+      fields:
+        reel: string
+        cover: string
+        caption: string
+        hashtags: string
+
+validation_rules:
+  - Every asset path must exist in the repository.
+  - Never generate replacement characters.
+  - Never change canonical character faces.
+  - Never change canonical outfits unless the render_plan specifies an approved outfit asset.
+  - If an asset is missing, stop the render.
+  - Final shot should use a brand end card when available.
+  - Total shot duration should match episode.total_duration_seconds within 1 second.

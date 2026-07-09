@@ -1,0 +1,8 @@
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_01_S001.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_02_S002.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_03_S003.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_04_S004.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_05_S005.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_06_S006.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_07_S007.mp4'
+file 'C:/ChatGpt_Codex/ShowroomFlowUniverse/outputs/autopilot/daily/2026-07-09/.work_episode_002/segment_08_S008.mp4'

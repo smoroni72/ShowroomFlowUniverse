@@ -1,0 +1,74 @@
+episode:
+  id: episode_002
+  title: "La prima impressione"
+  season: season_01
+
+provider: kling
+
+scenes:
+  - id: S001
+    duration: 5
+    environment: "Boutique Laura Fashion exterior"
+    action: "Marco Rinaldi arrives calmly in front of Laura Fashion boutique, elegant and professional, preparing to enter."
+    mood: "elegant anticipation"
+    camera:
+      shot: "wide vertical shot"
+      movement: "slow push in"
+    references:
+      characters:
+        - assets/characters/marco_rinaldi/turnaround/front_000.png
+        - assets/characters/marco_rinaldi/turnaround/left_045.png
+      environment: assets/environments/boutique_laura_fashion/exterior/environment_exterior_canon_v1.png
+      props: []
+    negative_prompt: "No text, no watermark, no distorted face, no outfit change."
+
+  - id: S002
+    duration: 5
+    environment: "Boutique Laura Fashion interior entrance"
+    action: "Marco enters the boutique and politely greets Laura. Laura notices him and smiles warmly."
+    mood: "warm professional encounter"
+    camera:
+      shot: "medium vertical shot"
+      movement: "soft cinematic dolly"
+    references:
+      characters:
+        - assets/characters/marco_rinaldi/expressions/01_sorriso_leggero.png
+        - assets/characters/laura/expressions/01_sorriso_leggero.png
+      environment: assets/environments/boutique_laura_fashion/interior/interior_entrance.png
+      props: []
+    negative_prompt: "No text, no watermark, no wrong faces, no exaggerated acting."
+
+  - id: S003
+    duration: 5
+    environment: "Boutique Laura Fashion central desk area"
+    action: "Marco gently places the ShowroomFlow prospecting kit on the desk. Laura looks at it with curiosity and interest."
+    mood: "curiosity and discovery"
+    camera:
+      shot: "medium close vertical shot"
+      movement: "slow push toward the kit"
+    references:
+      characters:
+        - assets/characters/marco_rinaldi/poses/leave_kit_on_desk.png
+        - assets/characters/laura/expressions/05_curiosita.png
+      environment: assets/environments/boutique_laura_fashion/interior/interior_central_area_1.png
+      props:
+        - assets/characters/marco_rinaldi/poses/leave_kit_on_desk.png
+    negative_prompt: "No text, no watermark, no changed faces, no strange hands."
+
+  - id: S004
+    duration: 5
+    environment: "ShowroomFlow brand closing card"
+    action: "Elegant final branded closing moment with the ShowroomFlow payoff."
+    mood: "premium closing"
+    camera:
+      shot: "static vertical shot"
+      movement: "fade in"
+    references:
+      characters: []
+      environment: assets/brand/backgrounds/showroomflow_black_background_v1.png
+      props:
+        - assets/brand/end_cards/showroomflow_end_card_experience_v1.png
+    negative_prompt: "No extra text, no watermark, no effects."
+
+output:
+  directory: outputs/autopilot/kling/episode_002/

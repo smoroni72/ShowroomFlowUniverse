@@ -1,0 +1,29 @@
+episode: episode_002
+
+title: La prima impressione
+
+shots:
+
+  - id: S001
+    description: Marco arriva davanti alla boutique.
+
+  - id: S002
+    description: Marco entra.
+
+  - id: S003
+    description: Laura sorride.
+
+  - id: S004
+    description: Marco ricambia.
+
+  - id: S005
+    description: Marco appoggia il Kit.
+
+  - id: S006
+    description: Laura osserva il Kit.
+
+  - id: S007
+    description: Dettaglio del Kit.
+
+  - id: S008
+    description: End Card.
